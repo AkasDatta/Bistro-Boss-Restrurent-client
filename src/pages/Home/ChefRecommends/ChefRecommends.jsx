@@ -3,14 +3,14 @@ import cardImage2 from '../../../assets/menu/pizza-bg.jpg';
 import cardImage3 from '../../../assets/menu/soup-bg.jpg';
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
-const ChefRecomads = () => {
+const ChefRecommends = () => {
     return (
         <section>
             <SectionTitle 
-                subHeading={"---Should Try---"}
+                subHeading={<i>---Should Try---</i>}
                 heading={"CHEF RECOMMENDS"}>
             </SectionTitle>
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-10">
                 <div className="card w-96 bg-gray-100 m-4 rounded-none lg:mr-20">
                 <figure className="rounded-none">
                     <img src={cardImage1} alt="Salad" className="" />
@@ -62,4 +62,4 @@ const ChefRecomads = () => {
     );
 };
 
-export default ChefRecomads;
+export default ChefRecommends;
