@@ -13,14 +13,13 @@ const Category = () => {
   return (
       <section>
           <SectionTitle 
-          subHeading={"From 11.00am to 10.00pm"}
+          subHeading={<i>---From 11.00am to 10.00pm---</i>}
           heading={"Order Online"}>
           </SectionTitle>
           <div className="container mx-auto px-16 lg:px-24">
           <Swiper
             slidesPerView={4}
             spaceBetween={30}
-            centeredSlides={true}
             pagination={{
               clickable: true,
             }}
@@ -31,19 +30,19 @@ const Category = () => {
                     <img src={slide1} alt="" />
                     <h6 className="text-4xl uppercase text-center -mt-16 mb-16 text-white">Salads</h6>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className="md:ml-3">
                     <img src={slide2} alt="" />
                     <h6 className="text-4xl uppercase text-center -mt-16 text-white">Pizzas</h6>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className="md:ml-3">
                     <img src={slide3} alt="" />
                     <h6 className="text-4xl uppercase text-center -mt-16 text-white">soups</h6>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className="md:ml-3">
                     <img src={slide4} alt="" />
                     <h6 className="text-4xl uppercase text-center -mt-16 text-white">desserts</h6>
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide className="md:ml-3">
                     <img src={slide5} alt="" />
                     <h6 className="text-4xl uppercase text-center -mt-16 text-white">Salads</h6>
                 </SwiperSlide>
