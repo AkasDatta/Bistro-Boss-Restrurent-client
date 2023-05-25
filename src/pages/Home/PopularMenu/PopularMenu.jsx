@@ -23,7 +23,7 @@ const PopularMenu = () => {
             heading={"FROM OUR MENU"}
             subHeadingClassName="text-center sm:text-left"
             headingClassName="text-3xl sm:text-4xl font-semibold"
-          />
+          ></SectionTitle>
         </div>
       </div>
       <div className="grid md:grid-cols-2 gap-10">
