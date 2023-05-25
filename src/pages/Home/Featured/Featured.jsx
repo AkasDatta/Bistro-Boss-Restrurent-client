@@ -9,7 +9,7 @@ const Featured = () => {
                 subHeading={<i>---Check it out---</i>}
                 heading={<span className="text-white">FROM OUR MENU</span>}>
             </SectionTitle>
-            <div className="md:flex justify-center items-center pb-20 pt-12 px-36">
+            <div className="md:flex justify-center items-center bg-slate-600 bg-opacity-40 pb-20 pt-12 px-36">
                 <div>
                     <img src={featuredImage} alt="" />
                 </div>
