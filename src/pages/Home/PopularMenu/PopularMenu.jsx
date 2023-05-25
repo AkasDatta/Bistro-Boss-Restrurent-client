@@ -15,7 +15,7 @@ const PopularMenu = () => {
   }, []);
 
   return (
-    <section className="container mx-auto px-4 lg:px-24">
+    <section className="max-w-screen-xl mx-auto px-4">
       <div className="px-4 sm:px-24">
         <div className="flex flex-col items-center sm:items-start">
           <SectionTitle
@@ -30,6 +30,11 @@ const PopularMenu = () => {
         {menu.map(item => (
           <MenuItem key={item._id} item={item} />
         ))}
+      </div>
+      <div className="text-center">
+        <button className="mt-12 btn btn-ghost text-black border-b-4 px-6 border-black hover:bg-black hover:text-yellow-600 uppercase">
+            View Full Menu
+        </button>
       </div>
     </section>
   );

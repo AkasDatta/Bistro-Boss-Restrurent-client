@@ -5,7 +5,7 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 const ChefRecommends = () => {
     return (
-        <section>
+        <section className="max-w-screen-xl mx-auto">
             <SectionTitle 
                 subHeading={<i>---Should Try---</i>}
                 heading={"CHEF RECOMMENDS"}>

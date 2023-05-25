@@ -3,7 +3,7 @@ import chefService from '../../../assets/home/chef-service.jpg';
 
 const BistroBoss = () => {
   return (
-    <div className="container mx-auto px-4 lg:px-24 mb-24">
+    <div className="max-w-screen-xl mx-auto mb-24">
       <div className="relative">
         <img src={chefService} alt="Chef Service" className="hidden sm:block mx-auto" />
         <div className="absolute inset-0 flex items-center justify-center">
