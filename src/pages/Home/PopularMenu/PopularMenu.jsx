@@ -19,9 +19,12 @@ const PopularMenu = () => {
         </div>
       </div>
       <div className="grid md:grid-cols-2 gap-10">
-        {popular.map(item => (
-          <MenuItem key={item._id} item={item} />
-        ))}
+        {
+          popular.map(item => (<MenuItem 
+            key={item._id} 
+            item={item} />
+          ))
+        }
       </div>
       <div className="text-center">
         <button className="mt-12 btn btn-ghost text-black border-b-4 px-6 border-black hover:bg-black hover:text-yellow-600 uppercase">
