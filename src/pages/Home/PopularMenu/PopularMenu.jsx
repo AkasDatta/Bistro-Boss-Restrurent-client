@@ -15,7 +15,7 @@ const PopularMenu = () => {
   }, []);
 
   return (
-    <section className="max-w-screen-xl mx-auto px-4">
+    <section className="max-w-screen-xl mx-auto px-4 mb-24">
       <div className="px-4 sm:px-24">
         <div className="flex flex-col items-center sm:items-start">
           <SectionTitle
