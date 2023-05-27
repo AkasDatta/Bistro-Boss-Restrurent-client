@@ -19,7 +19,7 @@ const Featured = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate facere, deserunt dolores maiores quod nobis quas quasi. Eaque repellat recusandae ad laudantium tempore consequatur consequuntur omnis ullam maxime tenetur.</p>
                     <button className="mt-6 btn btn-ghost text-white border-b-4 px-6 border-white hover:bg-black hover:text-yellow-600">
                             ADD TO CART
-                        </button>
+                    </button>
                 </div>
             </div>
         </div>
