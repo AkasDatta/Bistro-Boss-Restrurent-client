@@ -6,16 +6,18 @@ const Navbar = () => {
     const {user, logOut} = useContext(authContext);
 
     const handleLogout = () => {
-
+        logOut()
+            .then(() => {})
+            .catch(error => console.log(error));
     }
-    
+
     const navOptions = <>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/menu">Our Menu</Link></li>
             <li><Link to="/order/salad">Order Food</Link></li>
             {
                 user ? <>
-                    <button onClick={handleLogout} className="btn btn-link">Button</button>
+                    <button onClick={handleLogout} className="btn btn-link">LogOut</button>
                 </>:
                 <>
                     <li><Link to="/login">Login</Link></li>
