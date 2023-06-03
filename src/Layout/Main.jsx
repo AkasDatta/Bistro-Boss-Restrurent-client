@@ -3,7 +3,7 @@ import Navbar from '../../src/Shared/Navbar/Navbar.jsx';
 import Footer from '../../src/Shared/Footer/Footer.jsx';
 
 const Main = () => {
-    // const location = useLocation();
+    const location = useLocation();
     
     const noHeaderFooter = location.pathname.includes('login') || location.pathname.includes('signup');
 
