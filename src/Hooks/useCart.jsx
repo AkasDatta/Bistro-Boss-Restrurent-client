@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { useQuery } from 'react-query'
-import { authContext } from '../providers/AuthProvider';
+import { AuthContext } from '../providers/AuthProvider';
 const useCart = email => {
-    const {user} = useContext(authContext);
+    const {user} = useContext(AuthContext);
 
     const { refetch, data: cart = []} = useQuery({
         queryKey: ['cart', user?.email],
